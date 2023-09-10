@@ -18,8 +18,8 @@ export default function Header() {
           
         </div>
         <div className='flex justify-end gap-x-2 '>
-                <Boutton themes={'small'} colors={'yellow'}>Commencer</Boutton>
-                <Boutton themes={'small'} colors={'maron'}>Commencer</Boutton>
+                <Boutton themes={'small'} colors={'yellow'}>INCRIPTION</Boutton>
+                <Boutton themes={'small'} colors={'maron'}>CONNEXION</Boutton>
         </div>
     </div>
   )

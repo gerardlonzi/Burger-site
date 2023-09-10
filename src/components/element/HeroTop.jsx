@@ -21,7 +21,7 @@ const flex_box = 'flex  items-center'
                 <div className='absolute top-2/3 left-2/4 m-auto w-48 h-48 bg-red-700 rounded-full text-white flex justify-center items-center'>
                     <div className=' border-dashed border-2 rounded-full   w-36 h-36 text-center pt-7'>
                         <span className='font-semibold  '>
-                            <span className='text-4xl '>5</span>.49
+                            <span className='text-4xl '>5</span>.49 €
                         </span>
                         <span className='uppercase font-semibold block'>seulement</span>
                     </div>

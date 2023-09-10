@@ -5,19 +5,25 @@ import Container from '../components/container'
 import Header from '../components/element/header'
 import HeroTop from '../components/element/HeroTop'
 import Product from '../components/Product'
+import Carousell from '../components/carousell'
 
 export default function HomePages() {
   return (
    <div>
      <div className=' pt-10  pb-48 font1 text-lg' style={{backgroundImage: `url(${background_barner})`}}>
        <Container>
+
           <Header />
-          <HeroTop />  
+          <HeroTop /> 
+           
        </Container>
       </div>
       <Container>
+
         <Last />
         <Product />
+        <Carousell/>
+
       </Container>
       <div>
         
