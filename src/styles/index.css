@@ -2,9 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+.font{
+    font-family: 'Alfa Slab One', cursive;   
+}
+.font1{
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;    
+}
+.bg{
+    color: #342121;
+
+}
+.bgbutton{
+    background-color: #342121;
+}
+.bgbutton-yellow{
+    background-color:  #ffbd39
+}
+
 .animat{
     transition: .4s ease;
 }
 .shadow{
-    text-shadow: 3px 4px rgb(196, 183, 183);
+    text-shadow: 3px 4px rgb(239, 233, 186);
+}
+.height{
+    height: 33rem;
+}
+.section_img_text:hover .image{
+    transform: scale(1.4);
+    transition: 3s ease;
 }

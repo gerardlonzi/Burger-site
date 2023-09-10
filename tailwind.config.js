@@ -332,6 +332,7 @@ export default {
         '"Courier New"',
         'monospace',
       ],
+      alfa :['Alfa Slab One','cursive']
     },
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
