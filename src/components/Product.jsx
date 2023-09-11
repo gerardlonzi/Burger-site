@@ -10,18 +10,18 @@ export default function Product() {
 
         {
             nom:'lorem ipsuim dalor',
-            details : 'burger tres appetissant et delicieux pour baisser la temperature',
+            details : 'burger tres appetissant et delicieux pour \n baisser la temperature',
             img:product1
         },
         {
             nom:'lorem ipsuim dalor',
-            details : 'burger tres appetissant et delicieux pour baisser la temperature',
+            details : 'burger tres appetissant et delicieux pour \n baisser la temperature',
             img:product2
 
         },
         {
             nom:'lorem ipsuim dalor',
-            details : 'burger tres appetissant et delicieux pour baisser la temperature',
+            details : 'burger tres appetissant et delicieux pour \n baisser la temperature',
             img:product3
 
         }

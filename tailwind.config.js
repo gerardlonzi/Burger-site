@@ -993,6 +993,8 @@ export default {
       50: '50',
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
 

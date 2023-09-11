@@ -6,6 +6,7 @@ import Header from '../components/element/header'
 import HeroTop from '../components/element/HeroTop'
 import Product from '../components/Product'
 import Carousell from '../components/carousell'
+import Form from '../components/form'
 
 export default function HomePages() {
   return (
@@ -23,11 +24,10 @@ export default function HomePages() {
         <Last />
         <Product />
         <Carousell/>
+        <Form />
 
       </Container>
-      <div>
-        
-      </div>
+    
 
 
    </div>
