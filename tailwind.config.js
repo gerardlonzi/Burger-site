@@ -505,6 +505,7 @@ export default {
     },
     height: ({ theme }) => ({
       auto: 'auto',
+      
       ...theme('spacing'),
       '1/2': '50%',
       '1/3': '33.333333%',

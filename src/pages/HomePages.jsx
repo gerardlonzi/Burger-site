@@ -7,6 +7,7 @@ import HeroTop from '../components/element/HeroTop'
 import Product from '../components/Product'
 import Carousell from '../components/carousell'
 import Form from '../components/form'
+import Footer from '../components/footer'
 
 export default function HomePages() {
   return (
@@ -20,11 +21,13 @@ export default function HomePages() {
        </Container>
       </div>
       <Container>
-
         <Last />
         <Product />
         <Carousell/>
         <Form />
+      </Container>
+      <Container>
+      <Footer />
 
       </Container>
     

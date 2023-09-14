@@ -3,9 +3,29 @@ import product1 from '../medias/image/Product-1.jpg'
 import product2 from '../medias/image/Product-2.jpg'
 import product3 from '../medias/image/Product-3.jpg'
 import Boutton from './element/boutton'
+import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/all'
+import { ScrollToPlugin } from 'gsap/all'
 
 export default function Product() {
+    gsap.registerPlugin(ScrollTrigger,ScrollToPlugin)
+    gsap.fromTo(
+        'c',
+        {
+            opacity:0,
+            y:200
+        },
+        {
+            opacity:1,
+            y:0,
+            scrollTrigger:{
+                trigger:'c',
+                start:'top center',
+                end:'bottom center '
 
+            }
+        }
+        )
     const tab = [
 
         {
@@ -32,11 +52,11 @@ export default function Product() {
   return (
     <div className='mt-36'>
         <div className='flex items-center justify-center flex-col '>
-            <p className='text-center inline p-3 text-white uppercase font-semibold bg-yellow-500 m-auto'>toujours des delicieux BURGERS</p>
-            <h1 className='font text-5xl uppercase bg text-center pt-14 pb-8'>choississez et savourez</h1>
-            <p className='text-center text-lg bg'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est maxime facilis rem itaque? Eos facere  quaerat perferendis, <br />esse provident doloremque iusto, ab totam libero aperiam nemo sapiente officia aliquid reiciendis.</p>
+            <p className='c text-center inline p-3 text-white uppercase font-semibold bg-yellow-500 m-auto'>toujours des delicieux BURGERS</p>
+            <h1 className='c font text-5xl uppercase bg text-center pt-14 pb-8'>choississez et savourez</h1>
+            <p className='c text-center text-lg bg'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est maxime facilis rem itaque? Eos facere  quaerat perferendis, <br />esse provident doloremque iusto, ab totam libero aperiam nemo sapiente officia aliquid reiciendis.</p>
         </div>
-            <div className='flex mt-10 gap-1 text-center '>
+            <div className='c flex mt-10 gap-1 text-center '>
                 {tab.map((burger,index)=>(
                     <div key={index}>
                         <img src={burger.img} alt="product" className='mb-4'/>
