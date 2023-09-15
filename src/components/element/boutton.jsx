@@ -16,9 +16,9 @@ export default function Boutton({themes,children,colors}) {
 
     switch(themes){
         case 'big':
-            return <button className={`${color} px-16 py-4  uppercase text-white font-semibold animat`}>{children}</button>
+            return <button className={`${color} px-12 py-3  md:px-16 md:py-4  uppercase text-white font-semibold animat`}>{children}</button>
         case 'small':
-            return <button className={`${color} tracking-widest px-6 py-1.5  uppercase relative  z-10 text-white font-medium animat`}>{children}</button>    
+            return <button className={`${color} text-sm md:text-lg tracking-widest px-6 py-1.5 md:px-6 md:py-1.5  uppercase relative  z-10 text-white font-medium animat`}>{children}</button>    
         case 'moyen' :
             return <button  className={`${color} px-10 py-2 uppercase text-white font-semibold animat`}>{children}</button>
         default :

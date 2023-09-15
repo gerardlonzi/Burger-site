@@ -14,7 +14,7 @@ export default function HomePages() {
    <div>
 
   
-     <div className=' pt-10  pb-48 font1 text-lg' style={{backgroundImage: `url(${background_barner})`}}>
+     <div className=' pt-10  pb-0 lg:pb-48 font1 text-lg' style={{backgroundImage: `url(${background_barner})`}}>
        <Container>
 
           <Header />
