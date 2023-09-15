@@ -1,10 +1,12 @@
 {
   "name": "my-project",
   "private": true,
+  "proxy":"http://localhost:5000/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start-backend": "cd backend && env/bin/flask run --no-debugger",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"

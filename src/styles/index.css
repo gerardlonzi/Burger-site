@@ -29,13 +29,7 @@ body{
 .shadow{
     text-shadow: 3px 4px rgb(239, 233, 186);
 }
-.height{
-    height: 33rem;
-}
 .section_img_text:hover .image{
     transform: scale(1.4);
     transition: 3s ease;
-}
-.h-footer{
-    height: 34rem;
 }

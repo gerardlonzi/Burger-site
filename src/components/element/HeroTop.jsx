@@ -7,7 +7,7 @@ export default function HeroTop() {
 const flex_box = 'flex  items-center'  
 
   return (
-    <div className='px-20' >
+    <div className='px-20 ' >
           
           <div className='flex mt-36  '>
             <div className='w-full'>

@@ -14,9 +14,9 @@ export default function Header() {
   const flex_box = 'flex  items-center'
 
   return (
-    <div className='px-20'>
+    <div className='px-20 '>
       <div className={`${flex_box} justify-between pb-1`}>
-        <p><img src='Logo-burger-house.svg' alt="Logo-burger" className='w-60 ' /></p>
+        <p><img src='Logo-burger-house.svg' alt="Logo-burger" className='w-60 hidden md:block' /><img src="picto-burger-house.svg" alt="picto-burger-house" className='w-16 md:hidden' /></p>
 
         <div className={`${flex_box} gap-x-2 relative`}>
           <div>

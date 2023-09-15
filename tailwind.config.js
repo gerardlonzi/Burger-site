@@ -12,6 +12,7 @@ export default {
       ...theme('colors'),
       auto: 'auto',
     }),
+    
     animation: {
       none: 'none',
       spin: 'spin 1s linear infinite',
@@ -507,6 +508,9 @@ export default {
       auto: 'auto',
       
       ...theme('spacing'),
+      'height':'33rem',
+      'footer':'34rem',
+      'res':'49rem',
       '1/2': '50%',
       '1/3': '33.333333%',
       '2/3': '66.666667%',

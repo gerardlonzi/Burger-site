@@ -53,15 +53,15 @@ export default function Product() {
     <div className='mt-36'>
         <div className='flex items-center justify-center flex-col '>
             <p className='c text-center inline p-3 text-white uppercase font-semibold bg-yellow-500 m-auto'>toujours des delicieux BURGERS</p>
-            <h1 className='c font text-5xl uppercase bg text-center pt-14 pb-8'>choississez et savourez</h1>
-            <p className='c text-center text-lg bg'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est maxime facilis rem itaque? Eos facere  quaerat perferendis, <br />esse provident doloremque iusto, ab totam libero aperiam nemo sapiente officia aliquid reiciendis.</p>
+            <h1 className='c font text-3xl lg:text-5xl uppercase bg text-center pt-14 pb-8'>choississez et savourez</h1>
+            <p className='c text-center text-lg bg px-5'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est maxime facilis rem itaque? Eos facere  quaerat perferendis, <br />esse provident doloremque iusto, ab totam libero aperiam nemo sapiente officia aliquid reiciendis.</p>
         </div>
-            <div className='c flex mt-10 gap-1 text-center '>
+            <div className='c flex flex-col md:flex-row mt-10 gap-y-10 md:gap-x-1 text-center px-5 md:px-0'>
                 {tab.map((burger,index)=>(
                     <div key={index}>
-                        <img src={burger.img} alt="product" className='mb-4'/>
+                        <img src={burger.img} alt="product" className='mb-4 '/>
                         <span className='text-2xl font-semibold uppercase bg '>{burger.nom}</span>
-                        <p className='mt-3 mb-9'>{burger.details}</p>
+                        <p className='md:mt-3 md:mb-9 mt-1 mb-4'>{burger.details}</p>
                         <Boutton themes={'moyen'} colors={'red'} children={'Commander'} />
                     </div>
                 ))}

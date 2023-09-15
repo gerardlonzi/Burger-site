@@ -12,6 +12,8 @@ import Footer from '../components/footer'
 export default function HomePages() {
   return (
    <div>
+
+  
      <div className=' pt-10  pb-48 font1 text-lg' style={{backgroundImage: `url(${background_barner})`}}>
        <Container>
 
