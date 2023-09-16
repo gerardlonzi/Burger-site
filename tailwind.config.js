@@ -510,7 +510,7 @@ export default {
       ...theme('spacing'),
       'height':'33rem',
       'footer':'34rem',
-      'res':'49rem',
+      'res':'57rem',
       '1/2': '50%',
       '1/3': '33.333333%',
       '2/3': '66.666667%',
