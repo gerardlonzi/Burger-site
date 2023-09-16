@@ -14,7 +14,7 @@ export default function Footer() {
     let date =new Date()
     let year = date.getFullYear()
   return (
-    <div className=' mt-44 mb-10  md:px-8  px-0 w-full '>
+    <div className=' mt-44 mb-10  md:px-8  px-0 w-full ' data-aos="fade-up" data-aos-delay="200"  data-aos-easing="ease">
         <div className='bg-yellow-600 lg:h-footer h-res relative '>
             <img src={bgfooter} alt="bg-footer" className='w-full h-full object-cover'/>
             <div className='absolute top-0 w-full px-14 pt-28 flex flex-col gap-16  text-white'>

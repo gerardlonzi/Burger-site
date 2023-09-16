@@ -8,15 +8,15 @@ export default function Form() {
     return (
         <div>
             <Container >
-                <div className='text-center'>
+                <div data-aos="fade-up" data-aos-delay="200"  data-aos-easing="ease" className='text-center'>
                     <p className='uppercase mb-4  mt-16 text-xl lg:text-3xl font-semibold bg'>reservations</p>
                     <span className='font  uppercase bg  pt-14 pb-8 text-3xl lg:text-5xl px-5 lg:px-0'>Reservez votre place</span>
                 </div>
                 <div className='relative mt-24 flex justify-center '>
-                    <img src={imgs2} alt="Burger" className='hidden lg:block md:-left-28 absolute -top-72 -left-20'/>
-                    <img src={imgs3} alt="Sauce-pimente" className='hidden lg:block md:left-0  absolute top-0 left-32'/>
-                    <img src={imgs1} alt="Assiette-burger-frites" className='hidden lg:block  md:pl-16 absolute top-70 left-3/4 mt-20' />
-                    <form action="" method='' className='flex flex-col gap-5 sm:grid sm:grid-cols-2 sm:gap-3 md:gap-7 md:px-0 px-5' onSubmit={(e)=>e.preventDefault()}>
+                    <img data-aos="fade-up" data-aos-delay="200"  data-aos-easing="ease" src={imgs2} alt="Burger" className='hidden lg:block md:-left-28 absolute -top-72 -left-20'/>
+                    <img data-aos="fade-up" data-aos-delay="200"  data-aos-easing="ease" src={imgs3} alt="Sauce-pimente" className='hidden lg:block md:left-0  absolute top-0 left-32'/>
+                    <img data-aos="fade-up" data-aos-delay="200"  data-aos-easing="ease" src={imgs1} alt="Assiette-burger-frites" className='hidden lg:block  md:pl-16 absolute top-70 left-3/4 mt-20' />
+                    <form data-aos="fade-up" data-aos-delay="200"  data-aos-easing="ease" action="" method='' className='flex flex-col gap-5 sm:grid sm:grid-cols-2 sm:gap-3 md:gap-7 md:px-0 px-5' onSubmit={(e)=>e.preventDefault()}>
                         <div className=''>
                             <label htmlFor="name" className=' ml-2 block text-xl mb-3 font-semibold bg'>Name</label>
                             <input type="text" name='name' id='name' autoComplete='off' placeholder='john Doe' className='placeholder:font-semibold focus:border-yellow-600 focus:ring-amber-600 w-full   border-1 border-solid outline-none pr-32 pt-4 pb-4 rounded-md' />

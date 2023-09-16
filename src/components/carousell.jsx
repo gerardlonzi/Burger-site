@@ -10,10 +10,6 @@ import citation from '../medias/image/citations.png'
 import '../styles/caroussel.css'
 
 
-
-
-
-
 export default function Carousell() {
 
   const handleDragStart = (e) => e.preventDefault();
@@ -66,7 +62,7 @@ export default function Carousell() {
 
   ];
   return (
-    <div className='mt-36 '>
+    <div className='mt-36 ' data-aos="fade-up" data-aos-delay="200"  data-aos-easing="ease">
       <h1 className='font text-3xl lg:text-5xl uppercase bg text-center pt-14 pb-20'>Ce que les clients pensent</h1>
       <AliceCarousel mouseTracking items={items} 
       autoPlay={true}
