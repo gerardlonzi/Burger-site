@@ -1,6 +1,6 @@
 import React from 'react'
 import Last from '../components/popular&menuBurger'
-import background_barner from '../medias/image/bg-food.jpg'
+import background_barner from '/image/bg-food.jpg'
 import Container from '../components/container'
 import Header from '../components/element/header'
 import HeroTop from '../components/element/HeroTop'
@@ -15,23 +15,24 @@ export default function HomePages() {
 
   
      <div className=' pt-10  pb-0 lg:pb-48 font1 text-lg' style={{backgroundImage: `url(${background_barner})`}}>
-       <Container>
 
           <Header />
+       <Container>
           <HeroTop /> 
            
        </Container>
       </div>
       <Container>
         <Last />
-        <Product />
-        <Carousell/>
-        <Form />
       </Container>
-      <Container>
+        <Product />
+        <Container>
+        <Carousell/>
+       </Container>
+      <Form />
       <Footer />
 
-      </Container>
+     
     
 
 

@@ -12,6 +12,9 @@ body{
 .font1{
     font-family: 'Sofia Sans Extra Condensed', sans-serif;    
 }
+.font3{
+    font-family: "Bebas Neue", sans-serif;
+}
 .bg{
     color: #342121;
 
@@ -20,16 +23,25 @@ body{
     background-color: #342121;
 }
 .bgbutton-yellow{
-    background-color:  #ffbd39
+    background-color:  #ffad0a
 }
 
 .animat{
     transition: .4s ease;
 }
-.shadow{
+.shadows{
     text-shadow: 3px 4px rgb(239, 233, 186);
 }
 .section_img_text:hover .image{
     transform: scale(1.4);
-    transition: 3s ease;
+    transition: 0.5s ease;
+}
+.bgProduct{
+    display: none;
+    background-color: rgba(255, 230, 0,.4);
+
+}
+.imgProduct:hover .bgProduct{
+    display: block;
+
 }

@@ -1,8 +1,8 @@
 import React from 'react'
 import Container from './container'
-import imgs1 from '../medias/image/Assiette-burger-frites.png'
-import imgs2 from '../medias/image/Burger.png'
-import imgs3 from '../medias/image/Sauce-pimente.png'
+import imgs1 from '/image/Assiette-burger-frites.png'
+import imgs2 from '/image/Burger.png'
+import imgs3 from '/image/Sauce-pimente.png'
 
 export default function Form() {
     return (
@@ -13,13 +13,13 @@ export default function Form() {
                     <span className='font  uppercase bg  pt-14 pb-8 text-3xl lg:text-5xl px-5 lg:px-0'>Reservez votre place</span>
                 </div>
                 <div className='relative mt-24 flex justify-center '>
-                    <img data-aos="fade-up" data-aos-delay="200"  data-aos-easing="ease" src={imgs2} alt="Burger" className='hidden lg:block md:-left-28 absolute -top-72 -left-20'/>
-                    <img data-aos="fade-up" data-aos-delay="200"  data-aos-easing="ease" src={imgs3} alt="Sauce-pimente" className='hidden lg:block md:left-0  absolute top-0 left-32'/>
-                    <img data-aos="fade-up" data-aos-delay="200"  data-aos-easing="ease" src={imgs1} alt="Assiette-burger-frites" className='hidden lg:block  md:pl-16 absolute top-70 left-3/4 mt-20' />
-                    <form data-aos="fade-up" data-aos-delay="200"  data-aos-easing="ease" action="" method='' className='flex flex-col gap-5 sm:grid sm:grid-cols-2 sm:gap-3 md:gap-7 md:px-0 px-5' onSubmit={(e)=>e.preventDefault()}>
+                    <img data-aos="fade-up" data-aos-delay="200"  data-aos-easing="ease" src={imgs2} alt="Burger" className='hidden lg:block md:-left-28 absolute w-[18rem] -top-72 -left-20'/>
+                    <img data-aos="fade-up" data-aos-delay="200"  data-aos-easing="ease" src={imgs3} alt="Sauce-pimente" className='hidden lg:block md:-left-24  absolute top-0 left-32'/>
+                    <img data-aos="fade-up" data-aos-delay="200"  data-aos-easing="ease" src={imgs1} alt="Assiette-burger-frites" className='hidden lg:block w-[30rem] md:pl-16 absolute top-[120px] left-[67rem] mt-20' />
+                    <form data-aos="fade-up" data-aos-delay="200"  data-aos-easing="ease" action="" method='' className='flex flex-col gap-5 w-full sm:grid sm:grid-cols-2 sm:gap-3 md:gap-7 xl:px-36' onSubmit={(e)=>e.preventDefault()}>
                         <div className=''>
                             <label htmlFor="name" className=' ml-2 block text-xl mb-3 font-semibold bg'>Name</label>
-                            <input type="text" name='name' id='name' autoComplete='off' placeholder='john Doe' className='placeholder:font-semibold focus:border-yellow-600 focus:ring-amber-600 w-full   border-1 border-solid outline-none pr-32 pt-4 pb-4 rounded-md' />
+                            <input type="text" name='name' id='name' autoComplete='off' placeholder='john Doe' className='placeholder:font-semibold focus:border-yellow-600 focus:ring-amber-600 w-full  border-1 border-solid outline-none pr-32 pt-4 pb-4 rounded-md'  />
                         </div>
                         <div className=''>
                             <label htmlFor="email" className=' ml-2 block text-xl mb-3 font-semibold bg'>Email</label>
